@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Har")]
+[assembly: AssemblyTitle("HTTP archive (de)serializer")]
 [assembly: AssemblyDescription("Library to work with the HTTP Archive 1.2 format.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Nalanae")]
