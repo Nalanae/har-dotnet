@@ -8,6 +8,7 @@
     <version>1.0.0</version> <!-- Ignore, this will get updated at compile time -->
     <summary>Serializes and deserializes HAR JSON to .NET objects.</summary>
     <description>Library to make it easy to work with HTTP archives in .NET.</description>
+    <licenseUrl>https://raw.githubusercontent.com/Nalanae/har-dotnet/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	  <releaseNotes>Initial release.</releaseNotes>
 	  <tags>har httparchive http archive</tags>
