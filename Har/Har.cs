@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Linq;
-using Validation;
 
 namespace HttpArchive
 {
@@ -48,7 +47,8 @@ namespace HttpArchive
         /// <exception cref="InvalidOperationException">If the page ids contain duplicates or unknown page ids are referenced from an entry.</exception>
         public static string Serialize(Har har)
         {
-            Requires.NotNull(har, nameof(har));
+            if (har == null)
+                throw new ArgumentNullException(nameof(har));
 
             var countPages = har.Log.Pages.Count();
             var pageIds = har.Log.Pages.Select(p => p.Id).Distinct();
