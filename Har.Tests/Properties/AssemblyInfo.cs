@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Testing for the Har library.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Nalanae")]
-[assembly: AssemblyProduct("Har.Tests")]
+[assembly: AssemblyProduct("Tests for HTTP archive (de)serializer")]
 [assembly: AssemblyCopyright("Copyright © 2015 Waldo Menkveld")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

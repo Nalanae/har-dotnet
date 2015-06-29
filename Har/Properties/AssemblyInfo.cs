@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Library to work with the HTTP Archive 1.2 format.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Nalanae")]
-[assembly: AssemblyProduct("Har")]
+[assembly: AssemblyProduct("HTTP archive (de)serializer")]
 [assembly: AssemblyCopyright("Copyright © 2015 Waldo Menkveld")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
